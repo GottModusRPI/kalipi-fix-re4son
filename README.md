@@ -8,14 +8,17 @@ Fix sources list for good update/upgrade kali 2020.3a
   # cd etc/apt
   # nano sources.list
 2.(delete) replace the lyrics  with :
-*
+
 *deb http://http.kali.org/kali kali-rolling main contrib non-free
+
 *deb-src http://http.kali.org/kali kali-rolling contrib non-free
 
 *deb http://http.kali.org/kali kali-rolling-only main contrib non-free
+
 *deb-src http://http.kali.org/kali kali-rolling-only main contrib non-free
 
 *deb http://http.kali.org/kali kali-debian-picks main contrib non-free
+
 *deb-src http://http.kali.org/kali kali-debian-picks contrib non-free
 
    # -ctrl + c
